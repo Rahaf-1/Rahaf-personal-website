@@ -2,11 +2,12 @@
  import Button from "$lib/components/ui/button/button.svelte";
   </script>
 
-<div class="flex justify-end">
-    <div class="bg-secondary min-h-[calc(100vh-10rem)] w-[60vw] relative md:">
-      <div class="bg-[#fff9ef] shadow-[0_10px_60px_-15px_rgba(0,0,0,0.7)] w-[20rem] absolute start-10 -translate-x-full translate-y-1/4 flex flex-col items-center gap-2 justify-between ">
+<div class="flex justify-end pb-[28rem]  lg:pb-0 ">
+    <div class="bg-secondary relative w-full lg:w-[60vw] min-h-[40vh] lg:min-h-[calc(100vh-10.5rem)] flex justify-center items-center pb-20 ">
+      <div class="bg-[#fff9ef] shadow-[0_10px_60px_-15px_rgba(0,0,0,0.7)] w-[20rem] absolute lg:start-10 lg:-translate-x-full flex flex-col items-center gap-2 pt-16 justify-between self-bottom lg:self-start translate-y-[110%] lg:translate-y-[15%] max-w-[85vw] ">
+     <!-- svelte-ignore a11y-img-redundant-alt -->
      <img src="/profilei.png" class="rounded-full w-60" alt="personal picture" />
-    <div class="flex flex-col items-center gap-2">
+    <div class="flex flex-col items-center  gap-2 ">
       <h1 class=" font-bold text-4xl text-[#4c6763] ">
         Rahaf
             </h1>
@@ -15,7 +16,7 @@
               Software Engineer Student
             </h2>
     </div>
-<div class="w-full flex justify-center justify-evenly p-2 mt-6">
+<div class="w-full flex justify-evenly p-2 m-5">
   <Button variant="circle" size="icon" href="https://x.com/imrahaf_5">
   <svg xmlns="http://www.w3.org/2000/svg" class=" w-4 fill-background" viewBox="0 0 24 24"><path  d="m17.687 3.063l-4.996 5.711l-4.32-5.711H2.112l7.477 9.776l-7.086 8.099h3.034l5.469-6.25l4.78 6.25h6.102l-7.794-10.304l6.625-7.571zm-1.064 16.06L5.654 4.782h1.803l10.846 14.34z"/></svg>
 </Button>
@@ -25,6 +26,27 @@
 </Button>
 
 </div>
+      </div>
+      <div class="mx-10 max-w-[30rem] flex flex-col gap-8 pt-28">
+        <h1 class="text-8xl font-bold">
+          Hello
+        </h1>
+        <h4 class="text-4xl">
+         Here's who I am & what I do
+        </h4>
+        <div class="flex gap-4">
+        <Button href="/" variant="outline" class="w-36">
+          Resume
+        </Button>
+        <Button href="/Projects" variant="outline" class="w-36">
+          Projects
+        </Button>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia nisi itaque odio sint autem, repudiandae deleniti velit nihil magni magnam ex hic in? Nostrum quam et aperiam numquam, repudiandae fuga.
+          </p>
+        </div>
       </div>
     </div>
 </div>

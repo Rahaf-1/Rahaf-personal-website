@@ -28,8 +28,8 @@
     let isSheetOpen = false;
 </script>
 
-<nav
-class="text-secondary-foreground py-14 px-6 flex justify-between items-center mx-auto"
+<header
+class="text-secondary-foreground py-8 px-6 flex justify-between items-center mx-auto"
 >
     <div>
         <Button href="/" variant="primary">
@@ -80,5 +80,5 @@ class="text-secondary-foreground py-14 px-6 flex justify-between items-center mx
             {/each}
         </Sheet.Content>
     </Sheet.Root>
-</nav>
+</header>
 

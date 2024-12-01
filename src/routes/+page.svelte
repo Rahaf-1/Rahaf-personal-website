@@ -4,7 +4,7 @@
     import Button from "$lib/components/ui/button/button.svelte";
 </script>
 
-<div class="flex flex-row items-center justify-center pt-16">
+<div class="flex flex-row items-center justify-center pt-24">
     <svg
         class=" w-12 h-auto mt-2 mr-5 fill-primary/60"
         xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@
 <div class="pt-4 text-lg text-center">
     I'm a software engineering student, interested in UX/UI desing & front-end web development
 </div>
-<div class="flex flex-row items-center justify-center pt-5">
+<div class="flex flex-row items-center justify-center pt-5 ">
         <Button href="/Projects" class="h-7 w-36 rounded-full mr-20 bg-primary/60">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
