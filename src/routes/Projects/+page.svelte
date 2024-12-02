@@ -4,9 +4,14 @@
     import Title from "$lib/components/Title.svelte";
     import Button from "$lib/components/ui/button/button.svelte";
    
-    
-
 </script>
+<svelte:head>
+  <title>
+    Projects
+  </title>
+  </svelte:head>
+
+
 <Container class="flex flex-col gap-14">
    <Title title="Projects" />
    

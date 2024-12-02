@@ -7,6 +7,12 @@
     import Button from "$lib/components/ui/button/button.svelte";
 </script>
 
+<svelte:head>
+  <title>
+    Contact with me
+  </title>
+  </svelte:head>
+
 <Container class="flex flex-col gap-16">
     <Title title="Let's Talk" />
 

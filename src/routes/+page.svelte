@@ -4,6 +4,12 @@
     import Button from "$lib/components/ui/button/button.svelte";
 </script>
 
+<svelte:head>
+<title>
+    Rahaf - Home Page
+</title>
+</svelte:head>
+
 <div class="flex flex-row items-center justify-center pt-24">
     <svg
         class=" w-12 h-auto mt-2 mr-5 fill-primary/60"
