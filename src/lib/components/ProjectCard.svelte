@@ -4,8 +4,8 @@
  export let imageSrc: string;
 </script>
 
-<div class="bg-secondary shadow-xl flex flex-col sm:flex-row gap-4 p-6 ">
-<div class="flex flex-col gap-16 pt-8">
+<div class="bg-secondary shadow-xl flex flex-col sm:flex-row gap-4 p-6">
+<div class="flex flex-col gap-10 pt-8">
 <div class="flex flex-col min-w-32 border-s-8 border-primary ps-8">
 <span class="font-bold text-primary text-xl">
 {title}

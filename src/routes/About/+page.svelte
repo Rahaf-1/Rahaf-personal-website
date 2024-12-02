@@ -35,16 +35,20 @@
          Here's who I am & what I do
         </h4>
         <div class="flex gap-4">
-        <Button href="/" variant="outline" class="w-36">
-          Resume
+        <Button href="/Contact" variant="outline" class="w-36">
+          Contact
         </Button>
         <Button href="/Projects" variant="outline" class="w-36">
           Projects
         </Button>
         </div>
         <div>
+          <p class="font-semibold">
+            Welcome to My Website!
+          </p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia nisi itaque odio sint autem, repudiandae deleniti velit nihil magni magnam ex hic in? Nostrum quam et aperiam numquam, repudiandae fuga.
+            Hi, I’m Rahaf! I’m a Software Engineering student at Umm Al-Qura University and a designer at the UQU Computing Club. I’m passionate about front-end development and currently exploring the world of UX/UI design.
+            In my free time, I enjoy drawing and expressing creativity through art. I’m excited to share my journey and interests with you. Let’s connect and be friends!
           </p>
         </div>
       </div>
