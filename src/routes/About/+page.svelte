@@ -9,8 +9,8 @@
   </svelte:head>
 
 <div class="flex justify-end pb-[28rem]  lg:pb-0 ">
-    <div class="bg-secondary relative w-full lg:w-[60vw] min-h-[40vh] lg:min-h-[calc(100vh-10.5rem)] flex justify-center items-center pb-20 ">
-      <div class="bg-[#fff9ef] shadow-[0_10px_60px_-15px_rgba(0,0,0,0.7)] w-[20rem] absolute lg:start-10 lg:-translate-x-full flex flex-col items-center gap-2 pt-16 justify-between self-bottom lg:self-start translate-y-[110%] lg:translate-y-[15%] max-w-[85vw] ">
+    <div class="bg-secondary relative w-full lg:w-[60vw] min-h-[40vh] lg:min-h-[calc(100vh-10.5rem)] flex justify-center items-center pb-20">
+      <div class="bg-[#fff9ef] shadow-[0_10px_60px_-15px_rgba(0,0,0,0.7)] w-[20rem] absolute lg:start-10 lg:-translate-x-full flex flex-col items-center gap-2 pt-16 justify-between self-bottom lg:self-start translate-y-[120%] lg:translate-y-[15%] max-w-[85vw] ">
      <!-- svelte-ignore a11y-img-redundant-alt -->
      <img src="/profilei.png" class="rounded-full w-60" alt="personal picture" />
     <div class="flex flex-col items-center  gap-2 ">
